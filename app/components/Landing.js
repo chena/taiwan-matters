@@ -25,8 +25,12 @@ export default class Landing extends React.Component {
     return (
       <div>
         <div className={styles.landingHero}>
+          <video width="100%" autoPlay loop>
+            <source src={movementVideo} type="video/mp4"></source>
+            Your browser does not support HTML5 video.
+          </video>
           <Container className={styles.heroCopy}>
-            <Col md="10" md-offset="1">
+            <Col md="12" md-offset="1">
               <h1>2017 United Nations Membership for Taiwan / Keep Taiwan Free March</h1>
               <p>All members and allies of the Taiwanese community are invited to join this year’s UN for Taiwan / Keep Taiwan Free rally!</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEventMarch} target="_blank">GET INVOLVED</a>
@@ -41,11 +45,8 @@ export default class Landing extends React.Component {
               {LandingData.welcomeMessage}
               <Link to="about" className={styles.mainBtn} target="_blank">LEARN MORE</Link>
             </Col>
-            <Col md="6">
-              <video class={styles.eventVideo} width="770" height="434" autoPlay loop>
-                <source src={movementVideo} type="video/mp4" />
-                Your browser does not support HTML5 video.
-              </video>
+            <Col md="6" md-offset="1">
+              <iframe src="https://www.youtube.com/embed/i1ASHNEi3Ko?autoplay=1" frameBorder="0" allowFullScreen></iframe>
             </Col>
           </Row>
         </Container>

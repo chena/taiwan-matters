@@ -85,7 +85,6 @@ li {
   overflow: hidden;
   text-align: center;
   color: #FFF;
-  padding: 100px 0;
   font-size: 22px;
   font-weight: 300;
   line-height: 1.3;
@@ -93,10 +92,6 @@ li {
 
 .landingHero {
   composes: hero;
-  background-image:url(./images/home-cover-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .aboutHero {
@@ -107,7 +102,12 @@ li {
   background-position: center;
 }
 
-.heroCopy h1{
+.heroCopy {
+  position: absolute;
+  top: 90px;
+}
+
+.heroCopy h1 {
   font-size: 46px;
   line-height: 1.2;
 }
@@ -125,30 +125,19 @@ li {
   max-width: 1400px;
 }
 
-.landingHeroImg {
-  composes: heroImg;
-}
+@media (max-width: 770px) {
+  .heroCopy h1 {
+    font-size: 24px;
+  }
 
-.aboutImg {
-  composes: heroImg;
-  height: 350px;
-  width: auto;
-  margin-left: 36%;
-}
-
-@media (max-width: 600px) {
-  .aboutImg {
-    margin-left: 0;
+  .heroCopy p {
+    font-size: 16px;
   }
 }
 
-@media (min-width: 1400px) {
-  .landingHeroImg {
-    margin-left: 6%;
-  }
-
-  .landingHero {
-    background-color: rgb(103, 168, 131);
+@media (max-width: 1200px) {
+  .heroCopy {
+    top: 40px;
   }
 }
 
@@ -162,13 +151,22 @@ li {
 
 
 .landingBody {
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .landingBody h2 {
   font-size: 36px;
   font-weight: 400;
   margin: 0 0 20px;
+}
+
+.landingBody .mainBtn {
+  margin-bottom: 30px;
+}
+
+.landingBody iframe {
+  height: 415px;
+  width: 100%;
 }
 
 .landingBody .bodyText {
@@ -310,9 +308,13 @@ li {
   .homepageBoxContainer {
     margin-left: 10%;
   }
+
+  .heroCopy h1 {
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .homepageBox {
     width: 260px;
   }
@@ -320,6 +322,14 @@ li {
   .homepageBoxContainer {
     display: block;
     margin-left: 16%;
+  }
+
+  .heroCopy {
+    top: 20px;
+  }
+
+  .heroCopy h1 {
+    font-size: 24px;
   }
 }
 
