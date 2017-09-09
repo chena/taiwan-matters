@@ -5,18 +5,6 @@ import styles from '../styles.css';
 import history1 from '../images/history-image-1.png';
 import history2 from '../images/history-image-2.png';
 
-const textStyle = styles.bodyTextAbout
-
-function Paragraph (props) {
-  return <p className={textStyle}>{props.children}</p>
-}
-function Item (props) {
-  return <span className={textStyle}>{props.children}</span>
-}
-function Itemize (props) {
-  return <ul>{props.children.map((item, index) => <li key={index}>{item}</li>)}</ul>
-}
-
 // 同一個方框框 [ ] 包住的東西每一項必須有獨立的 key.
 // 可以是任何字串，只要同一個方框裡面都不一樣就好。
 const AboutData = Object.freeze({
@@ -30,7 +18,6 @@ const AboutData = Object.freeze({
     history1,
     history2
   ]
-
 });
 
 export default AboutData;

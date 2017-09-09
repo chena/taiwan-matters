@@ -410,44 +410,6 @@ li {
   height: 65px;
 }
 
-/* Footer */
-
-.footer {
-  background-color: #333;
-  text-align: center;
-}
-
-.footerContact {
-  padding: 30px 0;
-  color: #fff;
-}
-
-.footerContact h3 {
-  font-size: 16px;
-}
-
-.footerCopyright {
-  background-color: #000;
-  color: #999;
-  padding: 20px 0;
-}
-
-/* End Footer */
-
-.hostLogo {
-  margin-bottom: 50px;
-}
-
-.iceDivider {
-  border-bottom: 1px solid rgba(0,0,0,.12);
-  margin-bottom: 10px;
-}
-
-.staffCard {
-  padding-bottom: 23px;
-  border-bottom: 1px solid rgba(0,0,0,.12);
-}
-
 .hamburger {
   font-size: 30px;
   position: absolute;
@@ -500,88 +462,29 @@ li {
   }
 }
 
-.tabBand {
-  width: 100%;
-  background-color: rgb(165, 206, 134);
-  height: 50px;
-  margin-top: -90px;
-  margin-bottom: 90px;
-  border: 1px solid #fff;
-  display: flex;
-}
+/* Footer */
 
-.tabCategoryLeft {
-  width: 145px;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-  height: 100%;
-  margin-left: 18%;
-  font-family: 'DIN-Alternate';
-  color: #fff;
-  font-size: 17px;
+.footer {
+  background-color: #333;
   text-align: center;
-  padding-top: 10px;
-  letter-spacing: 1.5px;
-  cursor: pointer;
 }
 
-.tabCategory {
-  composes: tabCategoryLeft;
-  margin-left: 0;
-  border-left: 0;
+.footerContact {
+  padding: 30px 0;
+  color: #fff;
 }
 
-.tabCategoryLeftActive {
-  composes: tabCategoryLeft;
-  background-color: rgb(65, 138, 107);
+.footerContact h3 {
+  font-size: 16px;
 }
 
-.tabCategoryActive {
-  composes: tabCategory;
-  background-color: rgb(65, 138, 107);
+.footerCopyright {
+  background-color: #000;
+  color: #999;
+  padding: 20px 0;
 }
 
-.tabCategoryProgram {
-  composes: tabCategory;
-}
-
-.tabCategoryProgramLeft {
-  composes: tabCategoryLeft;
-}
-
-
-@media (max-width: 800px) {
-  .tabCategoryLeft {
-    margin-left: 0;
-  }
-
-  .tabCategoryProgramLeft {
-    margin-left: 0;
-    width: 85px;
-  }
-
-  .tabCategoryProgram {
-    width: 85px;
-  }
-}
-
-.panelDetails {
-  position: fixed;
-  width: 50%;
-  z-index: 100;
-  left: 50%;
-  box-shadow: -3px 4px 4px rgba(0,0,0,.2);
-  height: 100vh;
-  top: 0;
-  background-color: #fff;
-}
-
-.panelDetailContent {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  padding-top: 40px;
-}
+/* End Footer */
 
 /* About page */
 
