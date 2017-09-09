@@ -27,7 +27,11 @@ const LandingData = Object.freeze({
     zh: "了解詳情"
   },
   links: {
-      fbEvent: "https://www.facebook.com/events/854089958084652"
+      fbEventMarch: "https://www.facebook.com/events/854089958084652",
+      fbEventArts: "https://www.facebook.com/events/1286297154848937",
+      fbEventTalks: "https://www.facebook.com/events/123057211679062/",
+      fbEventBoba: "https://www.facebook.com/events/126055421368371",
+      marchMap: "http://bit.ly/UN4TWMap"
   },
   downloadPaperForm: {
     en: "Download Form",
