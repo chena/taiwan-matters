@@ -28,7 +28,7 @@ export default class Landing extends React.Component {
           <Container className={styles.heroCopy}>
             <Col md="10" md-offset="1">
               <h1>2017 United Nations Membership for Taiwan / Keep Taiwan Free March</h1>
-              <p>All members and allies of the Taiwanese community are invited to join this year's UN for Taiwan / Keep Taiwan Free rally!</p>
+              <p>All members and allies of the Taiwanese community are invited to join this year’s UN for Taiwan / Keep Taiwan Free rally!</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEvent} target="_blank">GET INVOLVED</a>
             </Col>
           </Container>
@@ -60,7 +60,7 @@ export default class Landing extends React.Component {
                   <section className={styles.eventSection}>
                     <p>09/16 (Sat) 3:00-3:30PM</p>
                     <h3>Assembly and Opening Remarks</h3>
-                    <p className={styles.eventNotes}>Consulate General of the People's Republic of China in New York 520 12th Ave (42nd St and 12th Av)</p>
+                    <p className={styles.eventNotes}>Consulate General of the People’s Republic of China in New York 520 12th Ave (42nd St and 12th Av)</p>
                   </section>
                   <section className={styles.eventSection}>
                     <p>09/16 (Sat) 3:30-5:00PM</p>

@@ -20,6 +20,7 @@ export default class Contact extends React.Component {
           <p className={styles.factDesc}>
             {factItem.description.map((sent, i) => <span key={i} style={i % 2 === 0 ? {} : {fontWeight: '500'}}>{sent} </span>)}
           </p>
+          <a href={factItem.referenceLink} target="_blank" className={styles.factLink}>Reference Link</a>
         </div>
       </Col>
     );
@@ -30,8 +31,10 @@ export default class Contact extends React.Component {
           <Container className={styles.heroCopy}>
             <Col md="10" md-offset="1">
               <img className={styles.factsHeroIcon} src={FactsData.hero.icon} />
-              <h1>{FactsData.hero.title}</h1>
-              <p>{FactsData.hero.subtitle}</p>
+              <h1 className={styles.factsHeroTitle}>{FactsData.hero.title}</h1>
+            </Col>
+            <Col md="8" md-offset="2">
+              <p>{FactsData.hero.subtitle.map((s, i) => <span key={i} style={i > 0 ? {fontWeight: '500'} : {}}>{s} </span>)}</p>
             </Col>
           </Container>
         </div>

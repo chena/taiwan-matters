@@ -8,7 +8,7 @@ html, body {
 body {
   font-family: Montserrat, sans-serif;
   font-weight: normal;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 a, a:hover, a:focus {
@@ -88,6 +88,7 @@ li {
   padding: 100px 0;
   font-size: 22px;
   font-weight: 300;
+  line-height: 1.3;
 }
 
 .landingHero {
@@ -104,7 +105,6 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  line-height: 1.27;
 }
 
 .heroCopy h1{
@@ -656,22 +656,9 @@ li {
 }
 
 .factCard {
-  margin: 15px;
-  width: 340px;
+  margin: 10px;
+  width: 370px;
   height: 590px;
-}
-
-.factCardImg {
-  width: 340px;
-  height: 340px;
-}
-
-.factDesc {
-  font-size: 16px;
-  font-weight: 200;
-  padding: 15px;
-  color: #fff;
-  line-height: 1.5;
 }
 
 .factCard1 {
@@ -702,6 +689,27 @@ li {
 .factCard6 {
   composes: factCard;
   background-color: #02558b;
+}
+
+.factCardImg {
+  width: 370px;
+  height: 370px;
+}
+
+.factDesc {
+  font-size: 16px;
+  font-weight: 200;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.factLink, .factLink:hover {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px;
 }
 
 /* End Facts page */

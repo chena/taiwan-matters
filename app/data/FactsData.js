@@ -15,8 +15,11 @@ import card6 from '../images/sdg-16.jpg';
 const FactsData = Object.freeze({
   hero: {
     icon: unTwImg,
-    title: ['UN Sustainable Development Goals:', 'How does Taiwan stack up?'],
-    subtitle: 'We shouldn’t have to do it alone… tell the UN the rest of the world is missing out on Taiwan. #KeepTaiwanFree #UNforTaiwan',
+    title: 'UN Sustainable Development Goals: How does Taiwan stack up?',
+    subtitle: [
+      'We shouldn’t have to do it alone… tell the UN the rest of the world is missing out on Taiwan.', 
+      '#KeepTaiwanFree #UNforTaiwan'
+    ],
   },
   factCards: [
       {
@@ -26,7 +29,7 @@ const FactsData = Object.freeze({
           'universal healthcare system',
           'is both cost-efficient and high-quality, with an 80% satisfaction rate. The system offers free choice of healthcare providers and, low copays, and home care.'
         ],
-        referenceLink: '#'
+        referenceLink: 'https://www.brookings.edu/opinions/taiwans-health-care-system-the-next-20-years'
       },
       {
         cardImg: card2,
@@ -35,28 +38,28 @@ const FactsData = Object.freeze({
           '2nd highest gender equality ranking in the world in 2013,',
           'due to female participation in politics, educational attainment, and workforce participation.'
         ],
-        referenceLink: '#'
+        referenceLink: 'http://www.chinapost.com.tw/taiwan/national/national-news/2013/06/11/380930/taiwan-gender.htm'
       },
       {
         cardImg: card3,
         description: ['In 2016, the Taiwanese government launched a new',
           'industrial development policy based on promoting Taiwan’s existing “Five Innovative Industries”,',
           'with a focus on developing new “green” materials and the circular economy.'],
-        referenceLink: '#'
+        referenceLink: 'https://www.moeaidb.gov.tw/external/ctlr?lang=1&PRO=english.rwdAbout01'
       },
       {
         cardImg: card4,
         description: ['Taiwan routinely contributes funds for humanitarian assistance and disaster relief, as well as',
           'knowledge sharing to improve infrastructure-',
           'from farming in Haiti to improving access to institutions for vulnerable populations in Nepal.'],
-        referenceLink: '#'
+        referenceLink: 'https://www.brookings.edu/opinions/taiwans-humanitarian-aiddisaster-relief-wither-or-prosper'
       },
       {
         cardImg: card5,
         description: ['Despite being left out of UNFCCC discussions, Taiwan has implemented its own ambitious plans to',
           'reduce carbon emissions and build sustainable communities,',
           'as well as training experts around the world on building environmental protection capacities.'],
-        referenceLink: '#'
+        referenceLink: 'https://inis.iaea.org/search/search.aspx?orig_q=RN:46068790'
       },
       {
         cardImg: card6,
@@ -65,7 +68,7 @@ const FactsData = Object.freeze({
           'thriving and free civil society',
           'keeps Taiwan’s democratic institutions robust and accountable. In early 2017, a historic court ruling made Taiwan',
           'the first country in Asia to legalize gay marriage.'],
-        referenceLink: '#'
+        referenceLink: 'https://www.theguardian.com/world/2017/may/22/taiwans-same-sex-marriage-court-ruling-asias-liberal-beacon'
       }
     ]
 });
