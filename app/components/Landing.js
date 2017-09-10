@@ -29,7 +29,7 @@ export default class Landing extends React.Component {
             <source src={movementVideo} type="video/mp4"></source>
             Your browser does not support HTML5 video.
           </video>
-          <Container className={styles.heroCopy}>
+          <Container className={styles.landingHeroCopy}>
             <Col md="12" md-offset="1">
               <h1>2017 United Nations Membership for Taiwan / Keep Taiwan Free March</h1>
               <p>All members and allies of the Taiwanese community are invited to join this year’s UN for Taiwan / Keep Taiwan Free rally!</p>
