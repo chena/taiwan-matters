@@ -96,16 +96,16 @@ export default class Landing extends React.Component {
                     <p className={styles.eventNotes}>United Nations Plaza</p>
                   </section>
                 </section>
-                <p>This year, in order for the world to see Taiwan, a group of Taiwanese architecture designer decided to team up with activists who has long advocated for Taiwan’s membership in the UN on an art installation located directly across the UN's office, titled " Taiwan Matters". The installation is consisted of six parts, all of which imitate the geographical landscape of Taiwan. Visitors will be able to move around the pieces freely, enabling the art installation a new perspective, creating new spaces and functionality.</p>
+                <p>This year, in order for the world to see Taiwan, a group of Taiwanese architecture designers decided to team up with activists who have long advocated for Taiwan’s membership in the UN on an art installation located directly across the UN’s office, titled “Taiwan Matters”. The installation consists of six parts, all of which imitate the geographical landscape of Taiwan. Visitors will be able to move around the pieces freely, enabling the art installation a new perspective, creating new spaces and functionalities.</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEventArts} target="_blank">EXPLORE</a>
-              <p>On <strong>September 16th, from 5:30 to 6:30pm</strong>, after the Rally for Taiwan in UN, Cafe Philo will also invite Taiwanese speakers from all kinds of communities, and background, to share their story and their experiences.</p>
+              <p>On <strong>September 16th, from 5:30 to 6:30pm</strong>, after the Rally for Taiwan in UN, Cafe Philo will also invite Taiwanese speakers from all kinds of communities and backgrounds to share their stories and experiences.</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEventTalks} target="_blank">GET INVOLVED</a>
               </Col>
               <Col md="4" className={styles.eventBox}>
                 <img src={eventBubbleTea} width="370" />
                 <h1 className={styles.heading}>EVENTS</h1>
                 <h2>NYC Bubble Tea Festival</h2>
-                <p>Hello Taiwan Bubble Tea Festival is the first celbration of its kind in NYC for the delicious tasting chewy bobbles & bobas in freshly brewed tea with giant straws!</p>
+                <p>Hello Taiwan Bubble Tea Festival is the first celebration of its kind in NYC for the delicious tasting chewy bobbles & bobas in freshly brewed tea with giant straws!</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEventBoba} target="_blank">GET INVOLVED</a>
               </Col>
             </Row>

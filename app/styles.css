@@ -405,59 +405,6 @@ li {
   color: white;
 }
 
-.bodyTextOTD {
-  composes: bodyTextAbout;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.eventInfo {
-  text-align: left;
-}
-
-.eventInfo p {
-  margin: 5px 0;
-}
-
-.infoLabel {
-  color: #44b696;
-  font-weight: 400;
-  margin: 10px 0 5px;
-}
-
-.eventInfo .infoLabel:first-child {
-  margin-top: 0;
-}
-
-.speakerButton {
-  background-color: #efedee;
-  margin-bottom: 40px;
-}
-
-.applyNowButton {
-  background-color: #64a680;
-  color: #fff;
-  font-size: 30px;
-  width: 300px;
-  height: 60px;
-  margin-left: 40%;
-  margin-top: 3%;
-  border: 3px solid #fff;
-  font-family: 'DIN-Condensed';
-}
-
-.applyNowButton:hover {
-  background-color: #fff;
-  color: #64a680;
-}
-
-@media (max-width: 600px) {
-  .applyNowButton {
-    margin-left: 12%;
-    margin-top: 12%;
-  }
-}
-
 .icon {
   height: 65px;
 }
