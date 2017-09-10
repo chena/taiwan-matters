@@ -53,7 +53,7 @@ export default class Landing extends React.Component {
         </Container>
         <div className={styles.eventsBody}>
           <Container className={styles.eventsBody}>
-            <Row>
+            <Row className={styles.flexBox}>
               <Col md="4" className={styles.eventBox}>
                 <img src={eventMarch} width="370" />
                 <h1 className={styles.heading}>EVENTS</h1>

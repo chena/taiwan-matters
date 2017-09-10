@@ -185,6 +185,14 @@ li {
   width: 100%;
 }
 
+.flexBox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 .eventBox {
   background-color: #fff;
   border-top: 4px solid #44b696;
