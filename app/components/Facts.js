@@ -40,7 +40,7 @@ export default class Contact extends React.Component {
         </div>
         <div>
           <Container className={styles.factCards}>
-            <Row>
+            <Row className={styles.flexBox}>
               {FactsData.factCards.map((factItem, i) => factCard(factItem, i + 1))}
             </Row>
           </Container>

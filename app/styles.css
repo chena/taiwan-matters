@@ -607,48 +607,57 @@ li {
 }
 
 .factCards {
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .factCard {
-  margin: 10px;
-  width: 370px;
-  height: 590px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.factCardExtraSpacing {
+  padding-bottom: 20px;
 }
 
 .factCard1 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #279b48;
 }
 
 .factCard2 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #ef402b;
 }
 
 .factCard3 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #f36d25;
 }
 
 .factCard4 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #e11484;
 }
 
 .factCard5 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #48773e;
 }
 
 .factCard6 {
-  composes: factCard;
+  composes: factCardExtraSpacing;
   background-color: #02558b;
 }
 
 .factCardImg {
-  width: 370px;
-  height: 370px;
+  display: block;
+  width: 100%;
 }
 
 .factDesc {
