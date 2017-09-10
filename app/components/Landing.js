@@ -46,7 +46,7 @@ export default class Landing extends React.Component {
               {LandingData.welcomeMessage}
               <Link to="about" className={styles.mainBtn}>LEARN MORE</Link>
             </Col>
-            <Col md="6" md-offset="1">
+            <Col md="8">
               <iframe src="https://www.youtube.com/embed/i1ASHNEi3Ko" frameBorder="0" allowFullScreen></iframe>
             </Col>
           </Row>
