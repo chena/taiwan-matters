@@ -44,7 +44,7 @@ export default class Landing extends React.Component {
               <h1 className={styles.heading}>ABOUT THE MOVEMENT</h1>
               <h2>Keep Taiwan Free</h2>
               {LandingData.welcomeMessage}
-              <Link to="about" className={styles.mainBtn} target="_blank">LEARN MORE</Link>
+              <Link to="about" className={styles.mainBtn}>LEARN MORE</Link>
             </Col>
             <Col md="6" md-offset="1">
               <iframe src="https://www.youtube.com/embed/i1ASHNEi3Ko" frameBorder="0" allowFullScreen></iframe>
