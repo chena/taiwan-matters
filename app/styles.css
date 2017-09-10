@@ -183,6 +183,11 @@ li {
 .eventBox {
   background-color: #fff;
   border-top: 4px solid #44b696;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   margin: 30px 10px;
   padding: 0;
   width: 370px;
