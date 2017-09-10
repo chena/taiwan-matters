@@ -69,7 +69,7 @@ export default class Frame extends React.Component {
         }
 	{children}
         <Appbar className={styles.footer}>
-          <div>
+          <Container>
             <Row>
               <Col md="12">
                 <div className={styles.footerContact}>
@@ -85,15 +85,17 @@ export default class Frame extends React.Component {
                 </div>
               </Col>
             </Row>
-          </div>
-          <div>
-            <Row>
-              <Col md="12">
-                <div className={styles.footerCopyright}>
-                  Copyright © 2017 Keep Taiwan Free
-                </div>
-              </Col>
-            </Row>
+          </Container>
+          <div className={styles.footerCopyright}>
+            <Container>
+              <Row>
+                <Col md="12">
+                  <div>
+                    Copyright © 2017 Keep Taiwan Free
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </div>
         </Appbar>
       </div>
