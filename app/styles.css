@@ -104,9 +104,35 @@ li {
   background-position: center;
 }
 
-.landingHeroCopy {
+.landingHeroVideo  {
   position: absolute;
-  top: 90px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 101%;
+  z-index: -1;
+}
+
+.landingHeroVideo {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .landingHeroVideo {
+    display: none;
+  }
+
+  .landingHero {
+    background-image:url(./images/home-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.landingHeroCopy {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .heroCopy h1 {
@@ -611,7 +637,7 @@ li {
 
 .factCard5 {
   composes: factCard;
-  background-color: #48773e; 
+  background-color: #48773e;
 }
 
 .factCard6 {
@@ -641,4 +667,3 @@ li {
 }
 
 /* End Facts page */
-

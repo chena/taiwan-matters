@@ -26,12 +26,12 @@ export default class Landing extends React.Component {
     return (
       <div>
         <div className={styles.landingHero}>
-          <video poster={homeCover} width="100%" autoPlay loop muted>
+          <video poster={homeCover} width="100%" autoPlay loop muted className={styles.landingHeroVideo}>
             <source src={movementVideo} type="video/mp4"></source>
             Your browser does not support HTML5 video.
           </video>
           <Container className={styles.landingHeroCopy}>
-            <Col md="12" md-offset="1">
+            <Col md="8" md-offset="2">
               <h1>2017 United Nations Membership for Taiwan / Keep Taiwan Free March</h1>
               <p>All members and allies of the Taiwanese community are invited to join this year’s UN for Taiwan / Keep Taiwan Free rally!</p>
               <a className={styles.mainBtn} href={LandingData.links.fbEventMarch} target="_blank">GET INVOLVED</a>
