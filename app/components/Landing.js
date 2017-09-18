@@ -93,7 +93,11 @@ export default class Landing extends React.Component {
                   <section className={styles.eventSection}>
                     <p>09/18 (Mon) 10AM - 5PM</p>
                     <p>09/20 (Wed) 10AM - 5PM</p>
-                    <p className={styles.eventNotes}>United Nations Plaza</p>
+                    <p className={styles.eventNotes}>Bowling Greens</p>
+                  </section>
+                  <section className={styles.eventSection}>
+                    <p>09/19 (Tue) 10AM - 5PM</p>
+                    <p className={styles.eventNotes}>City Hall Park</p>
                   </section>
                 </section>
                 <p>This year, in order for the world to see Taiwan, a group of Taiwanese architecture designers decided to team up with activists who have long advocated for Taiwan’s membership in the UN on an art installation located directly across the UN’s office, titled “Taiwan Matters”. The installation consists of six parts, all of which imitate the geographical landscape of Taiwan. Visitors will be able to move around the pieces freely, enabling the art installation a new perspective, creating new spaces and functionalities.</p>
